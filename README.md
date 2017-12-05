@@ -1,2 +1,3 @@
-# doc
-The public documents by the NiX team
+# NiX 团队公开文档
+
+本项目为 Nix 团队所有可公开的文档，旨在使用 Git 更方便地管理和维护文档。请维护者自觉遵守相关的代码规范，为文档添加 CHANGELOG 和贡献者名单。欢迎所有人为文档提供修改意见，请直接提交 Pull Request，并且在相关贡献者清单中加上你的名字。请遵守相关的开源协议！
