@@ -12,7 +12,7 @@
 
 新人加入团队请完善以下信息：
 
-* [GitHub](https://github.com/)账号：将账号发给负责人，加入团队组织[NiX-Team](https://github.com/NiX-Team)
+* [GitHub](https://github.com/)账号：将账号发给负责人，加入团队组织[NiX-Team](https://github.com/NiX-Team)，请将个人信息设置为公开（团队首页People页面中第四列设置为Public）
 * [Gitee](https://gitee.com/)账号：将账号发给负责人，加入团队组织[NiX-Team](https://gitee.com/organizations/NiX-Team)
 * 个人联系方式：请进入[团队信息维护页面](https://github.com/orgs/NiX-Team/projects/1)完善你的个人信息（需加入团队组织才有查看权限）
 
@@ -97,3 +97,4 @@ TODO
 ## CHANGELOG
 
 * v0.1 2017/12/08 编写初稿(jianzs)
+* v0.2 2017/12/08 添加GitHub信息公开要求(jianzs)
