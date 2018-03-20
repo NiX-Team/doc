@@ -90,14 +90,15 @@
 
 ## 贡献人员名单
 
-该名单按照姓名拼音排序，格式为`名字 (邮箱地址)`。
+该名单按照字母顺序排序。
 
-* 简子深 (<ganziqim@live.com>)
-* 袁小玲 (<624079953@qq.com>)
+* [GanZiQim](https://github.com/ganziqim)
+* [YXIAOL](https://github.com/YXIAOL)
 
 ## CHANGELOG
 
-* v0.1 2017/12/08 编写初稿(jianzs)
-* v0.2 2017/12/08 添加GitHub信息公开要求(jianzs)
-* v0.3 2017/12/27 完善书籍清单连接(jianzs)
-* v0.4 2018/03/15 添加考勤制度(yuanxl)
+* v0.1 2017/12/08 编写初稿（GanZiQim）
+* v0.2 2017/12/08 添加GitHub信息公开要求（GanZiQim）
+* v0.3 2017/12/27 完善书籍清单连接（GanZiQim）
+* v0.4 2018/03/15 添加考勤制度（YXIAOL）
+* v0.5 2018/03/20 规范文档格式（GanZiQim）
