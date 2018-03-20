@@ -27,11 +27,13 @@
 
 ## 贡献人员名单
 
-名单按照姓名拼音排序，格式为`名字 (邮箱地址)`。
+名单按照字母顺序排序。
 
-* Yotau Hong (<mailto:crazymosethief@outlook.com>)
+* [GanZiQim](https://github.com/ganziqim)
+* [Yotau Hong](https://github.com/crazymousethief)
 
 ## CHANGELOG
 
-* v0.1 2017/12/24 书籍清单初稿 (Yotau)
-* v0.2 2017/12/26 规范化文件名与内容格式 (Yotau)
+* v0.1 2017/12/24 书籍清单初稿（Yotau）
+* v0.2 2017/12/26 规范化文件名与内容格式（Yotau）
+* v0.3 2018/03/20 规范文档格式（GanZiQim）
