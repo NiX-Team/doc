@@ -15,13 +15,13 @@ FOOTER_TMP = '''
 
 ## 贡献人员名单
 
-该名单按照姓名拼音排序，格式为`名字 (邮箱地址)`。
+该名单按照字母顺序排序。
 
-* {1} (<{2}>)
+* [{1}](https://github.com/{2})
 
 ## CHANGELOG
 
-* v0.1 {3} {4}({1})
+* v0.1 {3} {4}（{1}）
 '''
 
 
@@ -45,19 +45,17 @@ def main():
         continue
 
     doc_title = input_field('Enter the title: ')
-
-    name = input_field('Enter your name: ')
-
-    try:
-        email = subprocess.check_output('git config --get user.email'.split())\
-                          .strip()
-    except subprocess.CalledProcessError:
-        email = input_field('Can not get your email from git config, '
-                            'enter your email manually: ')
+    name = input_field('Enter your name in contributor list: ')
+    changelog = input_field('Enter the CHANGELOG: ')
 
     now_str = datetime.now().strftime('%Y/%m/%d')
 
-    changelog = input_field('Enter the CHANGELOG: ')
+    try:
+        email = subprocess.check_output('git config --get user.name'.split())\
+                          .strip()
+    except subprocess.CalledProcessError:
+        email = input_field('Can not get your github username from git config, '
+                            'enter your email manually: ')
 
     doc_file.write(FOOTER_TMP.format(doc_title,
                                      name,
