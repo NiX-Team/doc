@@ -21,7 +21,7 @@
 团队从2016年搬出来至今，已经有了不少积累，以下清单中物品均为团队公共财产，请随意使用：
 
 * 显示器：1080P显示器两台
-* 书架：团队公共书籍请查看[书籍清单](https://github.com/NiX-Team/doc/blob/master/booklist.md)
+* 书架：团队公共书籍请查看[书籍清单](https://github.com/NiX-Team/doc/blob/master/docs/booklist.md)
 * 书桌：大书桌、普通书桌
 * 椅子：办公椅、普通椅子和塑料椅子
 * 床
@@ -94,6 +94,7 @@
 
 * [GanZiQim](https://github.com/ganziqim)
 * [YXIAOL](https://github.com/YXIAOL)
+* [GongQuan](https://github.com/1997Gongquan)
 
 ## CHANGELOG
 
@@ -102,3 +103,4 @@
 * v0.3 2017/12/27 完善书籍清单连接（GanZiQim）
 * v0.4 2018/03/15 添加考勤制度（YXIAOL）
 * v0.5 2018/03/20 规范文档格式（GanZiQim）
+* v0.6 2018/04/20 修改书籍清单链接（GongQuan）
