@@ -21,7 +21,7 @@
 团队从2016年搬出来至今，已经有了不少积累，以下清单中物品均为团队公共财产，请随意使用：
 
 * 显示器：1080P显示器两台
-* 书架：团队公共书籍请查看[书籍清单](https://github.com/NiX-Team/doc/blob/master/booklist.md)
+* 书架：团队公共书籍请查看[书籍清单](https://github.com/NiX-Team/doc/blob/master/docs/booklist.md)
 * 书桌：大书桌、普通书桌
 * 椅子：办公椅、普通椅子和塑料椅子
 * 床
@@ -40,7 +40,7 @@
 * 团队其它成员联系方式
 * 团队SS Feed信息
 * 各级负责人信息
-* 等等
+* 等等...
 
 ## 考勤制度
 
