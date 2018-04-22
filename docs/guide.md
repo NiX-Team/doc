@@ -93,8 +93,8 @@
 该名单按照字母顺序排序。
 
 * [GanZiQim](https://github.com/ganziqim)
-* [YXIAOL](https://github.com/YXIAOL)
 * [GongQuan](https://github.com/1997Gongquan)
+* [YXIAOL](https://github.com/YXIAOL)
 
 ## CHANGELOG
 
@@ -104,3 +104,4 @@
 * v0.4 2018/03/15 添加考勤制度（YXIAOL）
 * v0.5 2018/03/20 规范文档格式（GanZiQim）
 * v0.6 2018/04/20 修改书籍清单链接（GongQuan）
+* v0.61 2018/04/21 贡献人员名单排序更新（GongQuan）
