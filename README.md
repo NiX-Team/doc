@@ -7,8 +7,8 @@
 ## 目录
 
 * [书籍清单](docs/booklist.md#书籍清单)
-* [新人指南](docs/guide.md#书籍清单)
-* [招聘制度](docs/recruit.md#书籍清单)
+* [新人指南](docs/guide.md#新人指南)
+* [招聘制度](docs/recruit.md#招聘制度)
 
 ## 钩子的安装和使用
 
