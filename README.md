@@ -4,6 +4,12 @@
 
 欢迎大家为文档提供修改意见，请直接提交 Issue 或者 Pull Request，并且在相关贡献者清单中加上你的名字，添加 CHANGELOG。请遵守相关知识共享协议！
 
+## 目录
+
+* [书籍清单](docs/booklist.md#书籍清单)
+* [新人指南](docs/guide.md#新人指南)
+* [招聘制度](docs/recruit.md#招聘制度)
+
 ## 钩子的安装和使用
 
 * 请在将项目克隆至本地之后执行 `make hooks` 安装 commit 信息检查钩子，目前 **Windows** 平台暂不支持钩子。

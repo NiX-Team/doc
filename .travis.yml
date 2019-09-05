@@ -1,0 +1,25 @@
+language: node_js
+env:
+  global:
+  - NODE_ENV=production
+cache: yarn
+node_js:
+- 8
+install:
+- yarn
+script:
+- echo -e "TRAVIS_REPO_SLUG=$TRAVIS_REPO_SLUG \n TRAVIS_BUILD_DIR=$TRAVIS_BUILD_DIR
+  \n TRAVIS_PULL_REQUEST=$TRAVIS_PULL_REQUEST \n TRAVIS_PULL_REQUEST_BRANCH=$TRAVIS_PULL_REQUEST_BRANCH
+  \n TRAVIS_BRANCH=$TRAVIS_BRANCH \n TRAVIS_TAG=$TRAVIS_TAG \n "
+- yarn run build
+notifications:
+  slack:
+    secure: LZe8esO+C3rgYB+RYIbDmFa2P/pgULddIfLoDT4tfLdBSMJ2fRYhN1JHsSB/E4qZc7yP4WCQCUttPW7PQrTXvRJi+sUarz/bp7/k4LGLJRfiayPmNHl+fSyYhlAvDwOt2pACzaXME6z8NaLN0xdWESq5jUlTPEAu/7HMOtxkHZ55MJYAqCBB+G8faSxafGGKMYYXQ6u4Wm3S6TWxifY0nxpkj7BzpJ43H1xlR8HMd6eQLnzxoD64lVciUy1R+br/Bl/N/HgIHUcLRmEmXv9xzdTQm7xcXksLTk2JB7ArLsLTj3M8AhWn0jtYlFq9lvi6Wzh80AKf1KsI4ylDgBxXe8K5axkJsoleDy4q9nUzgOpADc4Tg0gCzsdSgAocg0ToxfhAazqfUYABXLYsUyo3qbiaMCZt/rkzXl/XCU5h5I94PwyJIIJRNJznNqNsaM7MmVW1GjTqK1JgiMyMIy+LtoGv1LaBKEZGEJhuVYkR0jNXPgh/FP6Z7VCcjevhFLVnltm/9LeuOPLQ2hUczed/JT+bVlkpG+TYu0QVSEnw6XPpWMIc33HC4pSfdjnDDTQZUwyCjPWaRJ63cUTQWTcrRKjOj32XP4DIOo70eN0V8rW3wc+KOQUAhVW1Bz/7MrGl1+YY5vWEZ3ggBq3KyB1G0v8uzsOtpB1wMnD5dxk6+ok=
+deploy:
+  repo: nix-team/doc
+  local_dir: ".vuepress/dist"
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  on:
+branch: master
